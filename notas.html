@@ -248,7 +248,199 @@ $(document).ready(function () {
 </div>
 
 
-<p>Nada ainda.</p>
+<pre class="r"><code>require(readODS)</code></pre>
+<pre><code>Loading required package: readODS</code></pre>
+<pre class="r"><code>require(xtable)</code></pre>
+<pre><code>Loading required package: xtable</code></pre>
+<pre class="r"><code>prova1 &lt;- read.csv(&quot;/home/wagner/Dropbox/Cursos/EstatísticaBásica/BiologiaMANHA/Prova1NOTA.csv&quot;, header = TRUE)
+prova1$Prova.1 &lt;- prova1$Prova.1/15
+kable(prova1, align = c(&quot;l&quot;,&quot;c&quot;), digits = 2)</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Aluno</th>
+<th align="center">Prova.1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1 45C GRR20127181 ALLYFER DOS SANTOS ZIEMMER</td>
+<td align="center">0.80</td>
+</tr>
+<tr class="even">
+<td align="left">2 31C GRR20130218 AMANDA MOLETTA GONTARSKI</td>
+<td align="center">0.73</td>
+</tr>
+<tr class="odd">
+<td align="left">3 31C GRR20122899 AMANDA VENTURA FIRMINO DA SILVA</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">4 31C GRR20141524 ANA BEATRIZ ROSCIA COSTA</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">5 31C GRR20141563 ANGELICA ARAUJO HILLMAN</td>
+<td align="center">0.73</td>
+</tr>
+<tr class="even">
+<td align="left">6 31C GRR20141789 BRUNA WUILLEUMIER SALEMME</td>
+<td align="center">0.93</td>
+</tr>
+<tr class="odd">
+<td align="left">7 31C GRR20140471 CAROLINE BURILLE MORETTI</td>
+<td align="center">0.80</td>
+</tr>
+<tr class="even">
+<td align="left">8 31C GRR20145451 EDUARDO MIGUEL ZANETTE CORREIA</td>
+<td align="center">0.87</td>
+</tr>
+<tr class="odd">
+<td align="left">9 31C GRR20127344 ELISANGELA MARIA LOTTERMANN</td>
+<td align="center">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">10 31C GRR20131301 ELY VANESSA FERREIRA</td>
+<td align="center">0.67</td>
+</tr>
+<tr class="odd">
+<td align="left">11 31C GRR20101558 EMANUELLE PINHEIRO</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">12 31C GRR20141942 EVELYN VIEIRA</td>
+<td align="center">0.67</td>
+</tr>
+<tr class="odd">
+<td align="left">13 31C GRR20142421 FLAVIA FERNANDA WEBER DE SOUZA</td>
+<td align="center">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">14 31C GRR20127353 FLAVIA GULAK MAIA</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">15 41A GRR20152635 GIULIA GABRIELA BOTAN</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">16 31C GRR20131845 GIULIA MOREIRA COUTO ARAUJO</td>
+<td align="center">0.93</td>
+</tr>
+<tr class="odd">
+<td align="left">17 31C GRR20142738 ISABELA ROGOSKI PERES</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">18 31C GRR20132191 ISIS DANNIELE CURY DA CRUZ</td>
+<td align="center">0.73</td>
+</tr>
+<tr class="odd">
+<td align="left">19 31C GRR20143144 JEHINY ELOISE ANDRADE XAVIER</td>
+<td align="center">0.80</td>
+</tr>
+<tr class="even">
+<td align="left">20 35A GRR20102715 JHENIFER MACIEL CORREA</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">21 41A GRR20120643 JOAO CARLOS MARTINS</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">22 31C GRR20142928 JOAO LUIS MACHADO PIETSCH</td>
+<td align="center">0.67</td>
+</tr>
+<tr class="odd">
+<td align="left">23 31C GRR20113106 JULIANO SEITI ALVES KUBO</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">24 31C GRR20142908 LARISSA DE MELO SCHROEDER</td>
+<td align="center">0.73</td>
+</tr>
+<tr class="odd">
+<td align="left">25 31C GRR20132857 LETICIA OLIVEIRA DO CARMO DALOSKI</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">26 31C GRR20143425 LETICIA WONS</td>
+<td align="center">0.87</td>
+</tr>
+<tr class="odd">
+<td align="left">27 45C GRR20127175 LOUISE TIMOTEO</td>
+<td align="center">0.93</td>
+</tr>
+<tr class="even">
+<td align="left">28 31C GRR20133012 LUCAS MIGUEL MUSOLON</td>
+<td align="center">0.93</td>
+</tr>
+<tr class="odd">
+<td align="left">29 45C GRR20145192 LUCAS TREVISAN FRANCA DE LIMA</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">30 31C GRR20143508 MARIA AUGUSTA POERSCH</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">31 45C GRR20133382 MARINA CANDIDO CARDOSO</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">32 31C GRR20113894 MARINA VALQUIRIA VATTE</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">33 76B GRR20120187 MARISA DIAS DA SILVA</td>
+<td align="center">0.67</td>
+</tr>
+<tr class="even">
+<td align="left">34 31C GRR20141289 MATHEUS MACIEL ALCANTARA SALLES</td>
+<td align="center">1.00</td>
+</tr>
+<tr class="odd">
+<td align="left">35 31C GRR20133607 MONICA CORRAL BLANCO</td>
+<td align="center">0.67</td>
+</tr>
+<tr class="even">
+<td align="left">36 31C GRR20133617 MONIQUE SCHREINER</td>
+<td align="center">0.87</td>
+</tr>
+<tr class="odd">
+<td align="left">37 31C GRR20140991 PATRICIA PERINAZZO</td>
+<td align="center">0.67</td>
+</tr>
+<tr class="even">
+<td align="left">38 31C GRR20143992 PAULA GIOVANNA CIAPPARINI</td>
+<td align="center">0.87</td>
+</tr>
+<tr class="odd">
+<td align="left">39 31C GRR20144018 PAULA VALESKA STICA</td>
+<td align="center">0.87</td>
+</tr>
+<tr class="even">
+<td align="left">40 76B GRR20104840 ROSANA MARIA RODRIGUES DE PAULA</td>
+<td align="center">0.73</td>
+</tr>
+<tr class="odd">
+<td align="left">41 31C GRR20105088 TANIA DAHIANA RUIZ DAS NEVES</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">42 41A GRR20165807 THATIANE CRISTYNE ALVES VASSOLER</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">43 31C GRR20127341 TIAGO HENRIQUE WESTPHAL</td>
+<td align="center">0.73</td>
+</tr>
+<tr class="even">
+<td align="left">44 31C GRR20144496 VALERIA SCHUARTZ</td>
+<td align="center">0.93</td>
+</tr>
+</tbody>
+</table>
 
 <center>
   <hr width="100%" size="3px">
