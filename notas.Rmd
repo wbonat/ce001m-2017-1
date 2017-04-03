@@ -13,6 +13,5 @@ source("setup_knitr.R")
 require(readODS)
 require(xtable)
 prova1 <- read.csv("/home/wagner/Dropbox/Cursos/EstatísticaBásica/BiologiaMANHA/Prova1NOTA.csv", header = TRUE)
-prova1$Prova.1 <- prova1$Prova.1/15
-kable(prova1, align = c("l","c"), digits = 2)
+kable(prova1, align = c("l","c","c","c"), digits = 2)
 ```
