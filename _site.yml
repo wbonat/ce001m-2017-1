@@ -42,8 +42,12 @@ navbar:
         href: Slides/Aula6.pdf
       - text: "Inferência estatística [PDF]"
         href: Slides/Aula7.pdf
-      - text: "R script - Inferência estatística [PDF]"
-        href: Slides/Aula7.pdf
+      - text: "R script - Inferência estatística"
+        href: Slides/Script1.R
+      - text: "Teste de hipóteses [PDF]"
+        href: Slides/Aula8.pdf
+      - text: "Tópicos Especiais [PDF]"
+        href: Slides/Aula9.pdf
   right:
     - text: GitHub
       href: https://github.com/wbonat/ce001m-2017-1
