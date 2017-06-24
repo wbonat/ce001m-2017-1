@@ -272,8 +272,8 @@ $(document).ready(function () {
 </div>
 
 
-<pre class="r"><code>require(xtable)
-prova1 &lt;- read.csv(&quot;/home/wagner/Dropbox/Cursos/EstatísticaBásica/BiologiaMANHA/Prova1NOTA.csv&quot;, header = TRUE)
+<pre class="r"><code>file = &quot;/home/wagner/Dropbox/Cursos/EstatísticaBásica/BiologiaMANHA/Prova1NOTA.csv&quot;
+prova1 &lt;- read.csv(file, header = TRUE)
 kable(prova1, align = c(&quot;l&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,&quot;l&quot;), digits = 2)</code></pre>
 <table>
 <thead>
@@ -701,17 +701,17 @@ kable(prova1, align = c(&quot;l&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,
 </tr>
 <tr class="even">
 <td align="left">30 31C GRR20143508 MARIA AUGUSTA POERSCH</td>
-<td align="center">0,00</td>
-<td align="center">0,00</td>
-<td align="center">0,00</td>
+<td align="center">7,33</td>
+<td align="center">7,33</td>
+<td align="center">6,66</td>
 <td align="center">6,00</td>
-<td align="center">0,00</td>
+<td align="center">8,66</td>
 <td align="center">5,33</td>
 <td align="center">7,33</td>
-<td align="center">0,00</td>
+<td align="center">10,00</td>
 <td align="center">4,00</td>
-<td align="left">2,52</td>
-<td align="left">Reprovado</td>
+<td align="left">6,96</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">31 45C GRR20133382 MARINA CANDIDO CARDOSO</td>
@@ -847,10 +847,10 @@ kable(prova1, align = c(&quot;l&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;,
 <td align="center">8,67</td>
 <td align="center">8,00</td>
 <td align="center">4,00</td>
-<td align="center">0,00</td>
+<td align="center">3,33</td>
 <td align="center">6,00</td>
-<td align="center">0,00</td>
-<td align="left">5,26</td>
+<td align="center">2,00</td>
+<td align="left">5,85</td>
 <td align="left">Final</td>
 </tr>
 <tr class="odd">
